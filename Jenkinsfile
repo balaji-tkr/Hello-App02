@@ -1,4 +1,4 @@
-@Library('jenkins-SL')_
+
 pipeline {
         agent any
         stages {
