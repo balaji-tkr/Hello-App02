@@ -1,5 +1,5 @@
-//@Library('jenkins-SL')_
-/*pipeline {
+@Library('jenkins-SL')_
+pipeline {
         agent any
         stages {
          stage('Build') {  
@@ -8,9 +8,9 @@
           
             }
         }
-    }
- }*/
 stage('Demo') {
     echo 'Hello world'
     sayHello 'Madagaskar'
+}
+        }
 }
